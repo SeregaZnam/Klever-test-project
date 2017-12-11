@@ -1,0 +1,97 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/main-window.jpg');
+}
+
+.modal-text {
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.modal-content {
+	padding: 30px 10px 0;
+	height: 250px;
+}
+
+#form-auto {
+	display: block;
+	text-align: center;
+}
+
+.error-text{
+	height: 20px;
+}
+
+.jumbotron {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+	padding-left: 20px !important;
+	border-radius: 10px;
+}
+
+.form-control {
+	margin-bottom: 20px;
+}
+
+.autorization {
+	border: 1px solid red;
+}
+
+.user__welcome {
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+	top: 140px;
+	color: white;
+}
+
+.user__content {
+	font-size: 0;
+	width: 700px;
+	height: 300px;
+	margin: 150px auto 0;
+	border-radius: 10px;
+	background-color: white;
+	padding: 10px;
+}
+
+.user__content_img {
+	vertical-align: top;
+	display: inline-block;
+	width: 140px !important;
+	height: 180px !important;
+	background: url('../img/avatar.jpg') 0 -30px no-repeat;
+	background-size: 100%; 
+}
+
+.user__content_data {
+	font-size: 16px;
+	width: 540px;
+	height: 100%;
+	display: inline-block;
+}
+
+.user__data {
+	margin-left: 15px;
+	height: 30px;
+	color: black;
+}
+
+.user__data_title {
+	margin-left: 15px;
+	width: 100%;
+}
+
+.test {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: red;
+	border: 1px solid red;
+}
